@@ -15,7 +15,7 @@ class DisjointSet:
         dsetx = self.find_set(x)
         dsety = self.find_set(y)
         if dsetx != None and dsety != None:
-            dsetx = dsety
+            self.DSet[dsetx] = dsety
 
     def connected_components(self, pairs: [], vertexes: []):
         for v in vertexes:

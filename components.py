@@ -5,6 +5,6 @@ class Node:
         self.rank = rank
 
 class Graph:
-    def __init__(self, v: {}, e:[]):
+    def __init__(self, v: {}, e: []):
         self.vertexes = v
         self.edges = e
